@@ -1,7 +1,25 @@
-# ColumnsAnimaton
+# ColumnsAnimation
 Imitates "Jannchie / Historical-ranking-data-visualization-based-on-d3.js "  
 
 a visualization tool, imitates [Jannchie/Historical-ranking-data-visualization-based-on-d3.js](https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js) almost entirely.  
+
+## Getting Started
+
+### How to run?
+
+Just open `animation.html` in your broswer.
+
+### How to use custom data?
+
+Replace the `data.js` with your data, in a JSON structure like this:
+```
+var TotalData=[
+    {"name": "xxx", "value": "1234", "date": 2019},
+    ...
+]
+```
+
+## the Main Idea
 
 ### 前言
 首先感谢原作者Jannchie <https://github.com/Jannchie/>  
